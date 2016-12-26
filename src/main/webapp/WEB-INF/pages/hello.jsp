@@ -1,10 +1,9 @@
-<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 <html>
-<head>
-	<meta charset="UTF-8">
-</head>
 <body>
-	<h1>${message}</h1>
-我
+<form method="get" action="/test">
+    输入你的姓名：<input type="text" name="webName"/>
+    <button type="submit">确定</button>
+</form>
 </body>
 </html>
